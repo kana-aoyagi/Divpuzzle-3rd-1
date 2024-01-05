@@ -2,71 +2,55 @@
 
 body {
 	width: 100%;
-	margin: 0 auto;
 	}
 	.redbox {
+		position: absolute;
 		width: 400px;
 		height: 100px;
 		background: #ff0000;
-		margin: 0px;
 	}
 	.container {
-		display: flex;
-		float: right;
-    width: 160px;
-    height: 60px;
-    background: #fff;
-		margin: 20px;
-	}
-	.item1 {
 		position: relative;
-		background: #a9004b;
+		float: right;
+		top: 20px;
+		right: 20px;
+		background-color: #fff;
+		border-width: 10px;
+		border-color: #fff;
+		border-style: solid;
+	}
+	.item {
+		float: right;
+		background-color: #a9004b;
 		width: 40px;
 		height: 40px;
-		margin-top: 10px;
 		margin-left: 10px;
 	}
-	.item2 {
-		position: absolute;
-		background: #a9004b;
-		width: 40px;
-		height: 40px;
-		margin-top: 10px;
-		margin-left: 60px;
-	}
-	.item3 {
-		position: absolute;
-		background: #a9004b;
-		width: 40px;
-		height: 40px;
-		margin-top: 10px;
-		margin-left: 110px;
+	.item:last-child {
+		margin-left: 0px;
 	}
 	.main {
-		display: flex;
+		float: left;
 		}
 	.greenbox {
+		position: absolute;
+		top: 100px;
 		width: 150px;
 		height: 250px;
 		background: #00ff51;
 	}
 	.brownbox {
+		position: absolute;
+		top: 100px;
+		left: 150px;
 		width: 250px;
 		height: 250px;
 		background: #8c2727;
-		float: left;
 	}
-	.item4 {
-		background: #ff863f;
-		border-width: 5px;
-		border-color: #fff;
-		border-style: solid;
-		width: 140px;
-		height: 40px;
-		margin-top: 40px;
-		margin-left: 40px;
-	}
-	.item5 {
+	.item2 {
+		position: relative;
+		top: 40px;
+		left: 40px;
 		background: #ff863f;
 		border-width: 5px;
 		border-color: #fff;
@@ -74,19 +58,13 @@ body {
 		width: 140px;
 		height: 40px;
 		margin-top: 10px;
-		margin-left: 40px;
 	}
-	.item6 {
-		background: #ff863f;
-		border-width: 5px;
-		border-color: #fff;
-		border-style: solid;
-		width: 140px;
-		height: 40px;
-		margin-top: 10px;
-		margin-left: 40px;
+	.item2:first-child {
+		margin-top: 0px;
 	}
 	.yellowbox {
+		position: relative;
+		top: 350px;
 		width: 400px;
 		height: 100px;
 		background: #ffd000;
