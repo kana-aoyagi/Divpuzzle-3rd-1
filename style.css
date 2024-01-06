@@ -3,8 +3,10 @@
 body {
 	width: 100%;
 	}
+	.wrapper {
+		width: 400px;
+	}
 	.redbox {
-		position: absolute;
 		width: 400px;
 		height: 100px;
 		background: #ff0000;
@@ -29,20 +31,14 @@ body {
 	.item:last-child {
 		margin-left: 0px;
 	}
-	.main {
-		float: left;
-		}
 	.greenbox {
-		position: absolute;
-		top: 100px;
+		float: left;
 		width: 150px;
 		height: 250px;
 		background: #00ff51;
 	}
 	.brownbox {
-		position: absolute;
-		top: 100px;
-		left: 150px;
+		float: left;
 		width: 250px;
 		height: 250px;
 		background: #8c2727;
@@ -63,8 +59,6 @@ body {
 		margin-top: 0px;
 	}
 	.yellowbox {
-		position: relative;
-		top: 350px;
 		width: 400px;
 		height: 100px;
 		background: #ffd000;
