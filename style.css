@@ -7,13 +7,13 @@ body {
 		width: 400px;
 	}
 	.redbox {
+		position: relative;
 		width: 400px;
 		height: 100px;
 		background: #ff0000;
 	}
 	.container {
-		position: relative;
-		float: right;
+		position: absolute;
 		top: 20px;
 		right: 20px;
 		background-color: #fff;
@@ -22,14 +22,14 @@ body {
 		border-style: solid;
 	}
 	.item {
-		float: right;
+		float: left;
 		background-color: #a9004b;
 		width: 40px;
 		height: 40px;
-		margin-left: 10px;
+		margin-right: 10px;
 	}
 	.item:last-child {
-		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.greenbox {
 		float: left;
@@ -38,15 +38,19 @@ body {
 		background: #00ff51;
 	}
 	.brownbox {
+		position: relative;
 		float: left;
 		width: 250px;
 		height: 250px;
 		background: #8c2727;
 	}
-	.item2 {
-		position: relative;
+	.container2 {
+		position: absolute;
 		top: 40px;
 		left: 40px;
+	}
+	.item2 {
+		float: left;
 		background: #ff863f;
 		border-width: 5px;
 		border-color: #fff;
